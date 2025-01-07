@@ -3,7 +3,7 @@
  */
 class AppController {
   static getHomepage(request, response) {
-    response.send('Hello Holberton School!');
+    response.status(200).send('Hello ALX!');
   }
 }
 
